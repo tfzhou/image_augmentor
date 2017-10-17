@@ -1,5 +1,9 @@
 ## Image Augmentor
 
+New Feature: The original implementation only rotates an image and padding it with black borders.
+I further try to find the largest possible area with the rotated image, as shown in the figure below.
+![alt text](example.jpg "example")
+
 This is a simple data augmentation tool for image files, intended for use with machine learning data sets.
 The tool scans a directory containing image files, and generates new images by performing a specified set of
 augmentation operations on each file that it finds. This process multiplies the number of training examples that can
